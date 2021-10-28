@@ -1,0 +1,106 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background: no-repeat #e0e8ff url(images/pattern-background-desktop.svg);
+    background-size: 100%;
+    width: 100%;
+    min-height: 100vh;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 450px;
+    background: #fff;
+    text-align: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.title{
+    font-weight: 900;
+    font-size: 1.6em;
+    margin-top: 30px;
+    color: #20314d;
+    font-weight: 900;
+}
+.text{
+    color: #787e96;
+    max-width: 300px;
+    margin: 20px auto;
+    line-height: 1.4;
+}
+.plan{
+    background: #f8f9fe;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+button{
+    border: none;
+    text-decoration: underline;
+    color: #2e23b0;
+    background: none;
+    font-weight: 900;
+}
+button:hover{
+    cursor: pointer;
+    outline: none;
+}
+button:active{
+    text-decoration: none;
+    color: #6a60c0;
+}
+.sup{
+    display: flex;
+    flex-direction: row;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.sub p{
+    color: #6b728f;
+}
+.sub h4{
+    margin-bottom: auto;
+    font-weight: 900;
+}
+.button{
+    background: #382ae1;
+    width: 80%;
+    margin: 20px auto;
+    padding: 1.1em;
+    border-radius: 15px;
+    color: white;
+    font-weight: 900;
+    box-shadow: 3px 20px 20px 5px #dcd8f9;
+    cursor: pointer;
+}
+.button:active{
+    background-color: #766cf1;
+    color: #f9fdff;
+}
+.cancel{
+    color: #666b8b;
+    margin: 40px auto;
+    font-weight: 900;
+    cursor: pointer;
+}
+.cancel:active{
+    color: #060d29;
+}
